@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'font';
+    src: url(./Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'font';
+
+}
+body *{
+    outline: none;
+}
+.logo img{
+    width: 90px;
+    margin: 10px;
+    margin-top: 5px;
+    transform: translateY(7px);
+}
+nav{
+    padding-block: 10px;
+    padding-inline: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+}
+nav #left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav #right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.links select {
+    border: none;
+    padding: 10px 15px;
+    margin-inline: 5px;
+    background-color: inherit;
+    font-size: 16px;
+    font-family: 'font';
+    font-weight: medium;
+}
+.links a{
+    font-family: 'font';
+    font-weight: medium;
+}
+
+.links .of{
+    text-decoration: none;
+    color: black;
+}
+#right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.search{
+    background-color: inherit;
+    border: 2px solid #4444445d;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 40px;
+
+}
+.search input{
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 30px;
+
+}
+.search .talent{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: medium;
+    font-family: font;
+}
+.search i{
+    font-size: 1rem;
+}
+
+
+#right .nav-btn{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 40px;
+
+}
+.nav-btn a{
+    font-family:font ;
+    font-weight: 400;
+    font-size: 16px;
+}
+.SignUp a{
+    color: white;
+}
+.Login a{
+    color: black;
+}
+
+.SignUp{
+    background-color: #169403;
+}
+.SignUp:hover{
+    background-color:rgb(4, 196, 4);
+}
+.Login{
+    background-color: inherit;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(117, 116, 116, 0.705);
+}
+#do{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#do a{
+    text-decoration: none;
+    margin-inline: 15px;
+    color: black;
+    
+}
+#do a:hover{
+    color: #16AF00;
+}
+#le h1{
+    color: #16AF00;
+    font-size: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#le p{
+    font-size: 30px;
+    margin: 0;
+    color: rgb(63, 62, 62);
+    margin-top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#le{
+    padding-left: 60px;
+    width: 50%;
+    height: 100%;
+    
+
+}
+#le .bu{
+    padding: 15px 25px;
+    background-color: #169403;
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: font;
+    margin-left: 10px;
+}
+#le .bu:hover{
+    background-color: #28d10e;
+}
+.bu a{
+    color: white;
+    text-decoration: none;
+}
+#le p, #le .bu{
+    transform: translateY(-30px);
+}
+#fe img{
+    width: 500px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#trust{
+    margin-left: 100px;
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.ogo img{
+    margin-left: 60px;
+}
+#ig{
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 10px;
+    transform: translatex(40px);
+}
